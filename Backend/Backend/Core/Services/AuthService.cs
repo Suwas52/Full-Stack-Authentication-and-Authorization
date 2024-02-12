@@ -71,8 +71,8 @@ namespace Backend.Core.Services
 
             ApplicationUser newUser = new ApplicationUser()
             {
-                FirstName = registerDto.UserName,
-                LastName = registerDto.UserName,
+                FirstName = registerDto.FirstName,
+                LastName = registerDto.LastName,
                 Email = registerDto.Email,
                 UserName = registerDto.UserName,
                 Address = registerDto.Address,

@@ -1,6 +1,6 @@
 ﻿namespace Backend.Core.DTOs.Message
 {
-    public class CreatedMessageDto
+    public class CreateMessageDto
     {
         public string ReceiverUserName { get; set; }
 
